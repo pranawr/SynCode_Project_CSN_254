@@ -1,0 +1,17 @@
+.messages {
+    padding: 5% 0;
+    overflow: auto;
+    flex: auto;
+  }
+
+  ::-webkit-scrollbar{
+    width: 8.5px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: #f4f4f4;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    border-radius: 25px;
+    background-color: #909090;
+  }

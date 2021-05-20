@@ -1,0 +1,25 @@
+.roomsLink:hover{
+    color: #ffffff !important;
+}
+
+.roomsLink{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.roomsLink::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #3498db;
+    transition: width 1s;
+}
+.banner-text h2{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.roomsLink:hover::after{
+    width: 100%;
+    transition: width 1s;
+}
